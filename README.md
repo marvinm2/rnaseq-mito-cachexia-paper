@@ -1,5 +1,8 @@
 # Mitochondrial impairment in cachexia — RNA-seq figure pipeline
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19555913.svg)](https://doi.org/10.5281/zenodo.19555913)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Scripts to reproduce the RNA-seq figures for the cachexia / mitochondrial dysfunction manuscript. Mouse model: 344P tumor-bearing (cachexia) vs sham, bulk RNA-seq, DEGs at padj < 0.01 and |log2FC| ≥ 0.5.
 
 ## Output
