@@ -1,0 +1,5 @@
+gene_symbol,level,category,n_genes
+Cyc1,level_2,Cytochromes,4
+Cycs,level_2,Cytochromes,4
+Cyct,level_2,Cytochromes,4
+mt-Cytb,level_2,Cytochromes,4

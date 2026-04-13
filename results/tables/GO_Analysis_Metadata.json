@@ -1,0 +1,76 @@
+{
+  "analysis_name": "Fully Automated GO Tree-Based Gene Annotation",
+  "creation_date": "2026-04-13T16:08:50.279494",
+  "annotation_approach": "GO ontology tree structure + QuickGO REST API annotations",
+  "method": "Fully automated - no manual gene lists",
+  "go_ontology": {
+    "file": "go-basic.obo",
+    "source": "http://purl.obolibrary.org/obo/go/go-basic.obo",
+    "download_date": "2026-04-13T16:08:50.279508",
+    "format_version": "OBO 1.2",
+    "total_terms": 48201
+  },
+  "annotation_source": {
+    "tool": "QuickGO REST API",
+    "organism": "Mus musculus (taxonId=10090)",
+    "database": "GO:BP (Biological Process)",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/downloadSearch",
+    "query_date": "2026-04-13T16:08:50.279528"
+  },
+  "go_terms": {
+    "proteolysis": {
+      "go_id": "GO:0006508",
+      "go_name": "proteolysis",
+      "total_genes": 1017,
+      "subcategories": 4,
+      "direct_children": 4
+    },
+    "myogenesis": {
+      "go_id": "GO:0042692",
+      "go_name": "muscle cell differentiation",
+      "total_genes": 136,
+      "subcategories": 2,
+      "direct_children": 2
+    }
+  },
+  "filtering": {
+    "min_genes_per_subcategory": 3,
+    "note": "Only direct children with \u22653 annotated genes included"
+  },
+  "subcategory_definitions": {
+    "proteolysis": {
+      "membrane protein proteolysis": {
+        "go_terms": "GO:0033619",
+        "description": "The proteolytic cleavage of a transmembrane protein leading to the release of its intracellular or ecto-domains.",
+        "gene_count": 43
+      },
+      "protein processing": {
+        "go_terms": "GO:0016485",
+        "description": "Any protein maturation process achieved by the cleavage of a peptide bond or bonds within a protein. Protein maturation is the process leading to the attainment of the full functional capacity of a protein.",
+        "gene_count": 245
+      },
+      "proteolysis involved in protein catabolic process": {
+        "go_terms": "GO:0051603",
+        "description": "The hydrolysis of a peptide bond or bonds within a protein as part of the chemical reactions and pathways resulting in the breakdown of a protein by individual cells.",
+        "gene_count": 755
+      },
+      "self proteolysis": {
+        "go_terms": "GO:0097264",
+        "description": "The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their own peptide bonds.",
+        "gene_count": 11
+      }
+    },
+    "myogenesis": {
+      "smooth muscle cell differentiation": {
+        "go_terms": "GO:0051145",
+        "description": "The process in which a relatively unspecialized cell acquires specialized features of a smooth muscle cell; smooth muscle lacks transverse striations in its constituent fibers and are almost always involuntary.",
+        "gene_count": 43
+      },
+      "striated muscle cell differentiation": {
+        "go_terms": "GO:0051146",
+        "description": "The process in which a relatively unspecialized cell acquires specialized features of a striated muscle cell; striated muscle fibers are divided by transverse bands into striations, and cardiac and voluntary muscle are types of striated muscle.",
+        "gene_count": 101
+      }
+    }
+  }
+}

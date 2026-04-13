@@ -1,0 +1,9 @@
+Category,GO_Term,Subcategory,Total_DEGs,Upregulated,Downregulated,Pct_Up,Pct_Down
+Proteolysis,GO:0006508,ALL,163,119,44,73.00613496932516,26.993865030674847
+Proteolysis,GO:0033619,membrane protein proteolysis,6,3,3,50.0,50.0
+Proteolysis,GO:0016485,protein processing,33,20,13,60.60606060606061,39.39393939393939
+Proteolysis,GO:0051603,proteolysis involved in protein catabolic process,124,96,28,77.41935483870968,22.58064516129032
+Proteolysis,GO:0097264,self proteolysis,0,0,0,0.0,0.0
+Myogenesis,GO:0007519,ALL,36,20,16,55.55555555555556,44.44444444444444
+Myogenesis,GO:0051145,smooth muscle cell differentiation,11,6,5,54.54545454545454,45.45454545454545
+Myogenesis,GO:0051146,striated muscle cell differentiation,25,14,11,56.00000000000001,44.0

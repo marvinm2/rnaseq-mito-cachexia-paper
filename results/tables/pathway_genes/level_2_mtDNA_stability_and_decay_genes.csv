@@ -1,0 +1,4 @@
+gene_symbol,pathway,level,n_genes
+Endog,mtDNA stability and decay,level_2,3
+Exog,mtDNA stability and decay,level_2,3
+Mgme1,mtDNA stability and decay,level_2,3

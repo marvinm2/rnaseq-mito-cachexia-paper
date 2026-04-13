@@ -1,0 +1,17 @@
+gene_symbol,pathway,level,n_genes
+Bcs1l,Complex III,level_1,16
+Cyc1,Complex III,level_1,16
+Lyrm7,Complex III,level_1,16
+Ttc19,Complex III,level_1,16
+Uqcc1,Complex III,level_1,16
+Uqcc2,Complex III,level_1,16
+Uqcc3,Complex III,level_1,16
+Uqcr10,Complex III,level_1,16
+Uqcr11,Complex III,level_1,16
+Uqcrb,Complex III,level_1,16
+Uqcrc1,Complex III,level_1,16
+Uqcrc2,Complex III,level_1,16
+Uqcrfs1,Complex III,level_1,16
+Uqcrh,Complex III,level_1,16
+Uqcrq,Complex III,level_1,16
+mt-Cytb,Complex III,level_1,16

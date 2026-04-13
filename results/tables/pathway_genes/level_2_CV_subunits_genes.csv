@@ -1,0 +1,22 @@
+gene_symbol,pathway,level,n_genes
+Atp5a1,CV subunits,level_2,21
+Atp5b,CV subunits,level_2,21
+Atp5c1,CV subunits,level_2,21
+Atp5d,CV subunits,level_2,21
+Atp5e,CV subunits,level_2,21
+Atp5g1,CV subunits,level_2,21
+Atp5g2,CV subunits,level_2,21
+Atp5g3,CV subunits,level_2,21
+Atp5h,CV subunits,level_2,21
+Atp5j,CV subunits,level_2,21
+Atp5j2,CV subunits,level_2,21
+Atp5k,CV subunits,level_2,21
+Atp5l,CV subunits,level_2,21
+Atp5md,CV subunits,level_2,21
+Atp5mpl,CV subunits,level_2,21
+Atp5o,CV subunits,level_2,21
+Atp5pb,CV subunits,level_2,21
+Atpif1,CV subunits,level_2,21
+Dmac2l,CV subunits,level_2,21
+mt-Atp6,CV subunits,level_2,21
+mt-Atp8,CV subunits,level_2,21

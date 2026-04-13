@@ -1,0 +1,10 @@
+gene_symbol,pathway,level,n_genes
+Gm4984,Gluconeogenesis,level_2,9
+Mdh2,Gluconeogenesis,level_2,9
+Mpc1,Gluconeogenesis,level_2,9
+Mpc2,Gluconeogenesis,level_2,9
+Pck2,Gluconeogenesis,level_2,9
+Pcx,Gluconeogenesis,level_2,9
+Slc25a1,Gluconeogenesis,level_2,9
+Slc25a10,Gluconeogenesis,level_2,9
+Slc25a11,Gluconeogenesis,level_2,9

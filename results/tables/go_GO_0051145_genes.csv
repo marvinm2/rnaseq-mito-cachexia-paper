@@ -1,0 +1,44 @@
+gene_symbol,go_id,go_name,relationship
+ACVR1,GO:0051145,smooth muscle cell differentiation,is_a
+AGT,GO:0051145,smooth muscle cell differentiation,is_a
+APLNR,GO:0051145,smooth muscle cell differentiation,is_a
+BMP4,GO:0051145,smooth muscle cell differentiation,is_a
+C3,GO:0051145,smooth muscle cell differentiation,is_a
+CFD,GO:0051145,smooth muscle cell differentiation,is_a
+CFH,GO:0051145,smooth muscle cell differentiation,is_a
+CTNNB1,GO:0051145,smooth muscle cell differentiation,is_a
+EDNRB,GO:0051145,smooth muscle cell differentiation,is_a
+FGF10,GO:0051145,smooth muscle cell differentiation,is_a
+FOXF1,GO:0051145,smooth muscle cell differentiation,is_a
+GATA6,GO:0051145,smooth muscle cell differentiation,is_a
+ITGA8,GO:0051145,smooth muscle cell differentiation,is_a
+MEF2C,GO:0051145,smooth muscle cell differentiation,is_a
+MESP1,GO:0051145,smooth muscle cell differentiation,is_a
+MRTFA,GO:0051145,smooth muscle cell differentiation,is_a
+MRTFB,GO:0051145,smooth muscle cell differentiation,is_a
+MUS MUSCULUS (HOUSE MOUSE) MICRORNA MMU-MIR-143 PRECURSOR,GO:0051145,smooth muscle cell differentiation,is_a
+MUS MUSCULUS (HOUSE MOUSE) MICRORNA MMU-MIR-145A PRECURSOR,GO:0051145,smooth muscle cell differentiation,is_a
+MUS MUSCULUS (HOUSE MOUSE) MMU-MIR-145A-5P,GO:0051145,smooth muscle cell differentiation,is_a
+MYOCD,GO:0051145,smooth muscle cell differentiation,is_a
+NFATC3,GO:0051145,smooth muscle cell differentiation,is_a
+NFATC4,GO:0051145,smooth muscle cell differentiation,is_a
+NPNT,GO:0051145,smooth muscle cell differentiation,is_a
+NTF3,GO:0051145,smooth muscle cell differentiation,is_a
+PDGFB,GO:0051145,smooth muscle cell differentiation,is_a
+PDGFRB,GO:0051145,smooth muscle cell differentiation,is_a
+PITX2,GO:0051145,smooth muscle cell differentiation,is_a
+PROK2,GO:0051145,smooth muscle cell differentiation,is_a
+QKI,GO:0051145,smooth muscle cell differentiation,is_a
+SIX1,GO:0051145,smooth muscle cell differentiation,is_a
+SMARCA2,GO:0051145,smooth muscle cell differentiation,is_a
+SMARCA4,GO:0051145,smooth muscle cell differentiation,is_a
+SOX9,GO:0051145,smooth muscle cell differentiation,is_a
+SRF,GO:0051145,smooth muscle cell differentiation,is_a
+TBX18,GO:0051145,smooth muscle cell differentiation,is_a
+TBX2,GO:0051145,smooth muscle cell differentiation,is_a
+TBX3,GO:0051145,smooth muscle cell differentiation,is_a
+TMEM204,GO:0051145,smooth muscle cell differentiation,is_a
+TSHZ3,GO:0051145,smooth muscle cell differentiation,is_a
+VANGL2,GO:0051145,smooth muscle cell differentiation,is_a
+WNT4,GO:0051145,smooth muscle cell differentiation,is_a
+WNT7B,GO:0051145,smooth muscle cell differentiation,is_a

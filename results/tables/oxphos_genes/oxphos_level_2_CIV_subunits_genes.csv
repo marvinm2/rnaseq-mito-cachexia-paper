@@ -1,0 +1,22 @@
+gene_symbol,level,category,n_genes
+Cox4i1,level_2,CIV subunits,21
+Cox4i2,level_2,CIV subunits,21
+Cox5a,level_2,CIV subunits,21
+Cox5b,level_2,CIV subunits,21
+Cox6a1,level_2,CIV subunits,21
+Cox6a2,level_2,CIV subunits,21
+Cox6b1,level_2,CIV subunits,21
+Cox6b2,level_2,CIV subunits,21
+Cox6c,level_2,CIV subunits,21
+Cox7a1,level_2,CIV subunits,21
+Cox7a2,level_2,CIV subunits,21
+Cox7a2l,level_2,CIV subunits,21
+Cox7b,level_2,CIV subunits,21
+Cox7c,level_2,CIV subunits,21
+Cox8a,level_2,CIV subunits,21
+Cox8b,level_2,CIV subunits,21
+Cox8c,level_2,CIV subunits,21
+Ndufa4,level_2,CIV subunits,21
+mt-Co1,level_2,CIV subunits,21
+mt-Co2,level_2,CIV subunits,21
+mt-Co3,level_2,CIV subunits,21

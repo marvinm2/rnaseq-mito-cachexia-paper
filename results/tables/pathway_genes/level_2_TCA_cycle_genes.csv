@@ -1,0 +1,21 @@
+gene_symbol,pathway,level,n_genes
+Aco2,TCA cycle,level_2,20
+Cs,TCA cycle,level_2,20
+Dld,TCA cycle,level_2,20
+Dlst,TCA cycle,level_2,20
+Fh1,TCA cycle,level_2,20
+Idh2,TCA cycle,level_2,20
+Idh3a,TCA cycle,level_2,20
+Idh3b,TCA cycle,level_2,20
+Idh3g,TCA cycle,level_2,20
+Mdh2,TCA cycle,level_2,20
+Mrps36,TCA cycle,level_2,20
+Ogdh,TCA cycle,level_2,20
+Ogdhl,TCA cycle,level_2,20
+Sdha,TCA cycle,level_2,20
+Sdhb,TCA cycle,level_2,20
+Sdhc,TCA cycle,level_2,20
+Sdhd,TCA cycle,level_2,20
+Sucla2,TCA cycle,level_2,20
+Suclg1,TCA cycle,level_2,20
+Suclg2,TCA cycle,level_2,20

@@ -1,0 +1,4 @@
+gene_symbol,go_id,go_name,relationship
+MSC,GO:0014707,branchiomeric skeletal muscle development,is_a
+PITX1,GO:0014707,branchiomeric skeletal muscle development,is_a
+TCF21,GO:0014707,branchiomeric skeletal muscle development,is_a

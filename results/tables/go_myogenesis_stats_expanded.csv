@@ -1,0 +1,8 @@
+go_id,go_name,relationship,Total_Genes,DEGs,Upregulated,Downregulated,Pct_Up,Pct_Down,Enrichment_P,Directional_P,Enrichment_FDR,Directional_FDR,Enrichment_Sig,Directional_Sig
+GO:0051145,smooth muscle cell differentiation,is_a,43,11,6,5,54.54545454545454,45.45454545454545,0.5618407486754392,1.0,1.0,1.0,ns,ns
+GO:0051146,striated muscle cell differentiation,is_a,101,25,14,11,56.00000000000001,44.0,0.6189818561809755,1.0,1.0,1.0,ns,ns
+GO:0055001,muscle cell development,part_of,126,26,14,12,53.84615384615385,46.15384615384615,0.9213695595187226,1.0,1.0,1.0,ns,ns
+GO:0042693,muscle cell fate commitment,part_of,12,2,1,1,50.0,50.0,0.8533005890010923,1.0,1.0,1.0,ns,ns
+GO:0035914,skeletal muscle cell differentiation,part_of,70,25,13,12,52.0,48.0,0.039300517519270925,0.8404399808438846,0.183402415089931,1.0,ns,ns
+GO:0048741,skeletal muscle fiber development,part_of,31,6,0,6,0.0,100.0,0.8438335157023491,0.007736541359433237,1.0,0.054155789516032664,ns,ns
+GO:0048630,skeletal muscle tissue growth,part_of,6,5,3,2,60.0,40.0,0.005216994343872026,1.0,0.054155789516032664,1.0,ns,ns

@@ -1,0 +1,4 @@
+gene_symbol,pathway,level,n_genes
+Cycs,Cytochrome C,level_1,3
+Cyct,Cytochrome C,level_1,3
+Hccs,Cytochrome C,level_1,3

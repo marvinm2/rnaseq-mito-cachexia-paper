@@ -1,0 +1,79 @@
+level,pathway,total_degs,upregulated,downregulated,pct_downregulated
+2,Mitochondrial ribosome,17,1,16,94.11764705882352
+2,CI subunits,14,0,14,100.0
+2,CIV assembly factors,10,0,10,100.0
+2,CI assembly factors,9,0,9,100.0
+2,mt-tRNA modifications,8,5,3,37.5
+2,mtRNA granules,8,2,6,75.0
+2,Mitochondrial ribosome assembly,7,0,7,100.0
+2,Fe-S-containing proteins,7,0,7,100.0
+2,Fatty acid oxidation,7,5,2,28.57142857142857
+2,Translation factors,6,0,6,100.0
+2,mt-rRNA modifications,6,0,6,100.0
+2,Nucleotide synthesis and processing,6,1,5,83.33333333333334
+2,TCA cycle,5,0,5,100.0
+2,Proteases,5,2,3,60.0
+2,mt-tRNA synthetases,5,0,5,100.0
+2,Coenzyme Q metabolism,5,0,5,100.0
+2,Pyruvate metabolism,4,1,3,75.0
+2,Proline metabolism,4,1,3,75.0
+2,Folate and 1-C metabolism,4,1,3,75.0
+2,TCA-associated,4,0,4,100.0
+2,CV subunits,4,0,4,100.0
+2,Fe-S cluster biosynthesis,4,0,4,100.0
+2,NAD biosynthesis and metabolism,4,0,4,100.0
+2,Xenobiotic metabolism,4,0,4,100.0
+2,"Q-linked reactions, other",3,1,2,66.66666666666666
+2,Gluconeogenesis,3,0,3,100.0
+2,mtDNA stability and decay,3,0,3,100.0
+2,Phospholipid metabolism,3,1,2,66.66666666666666
+2,CIII assembly factors,3,0,3,100.0
+2,Heme-containing proteins,3,0,3,100.0
+2,ROS and glutathione metabolism,3,2,1,33.33333333333333
+2,Chaperones,3,1,2,66.66666666666666
+2,CIV subunits,2,0,2,100.0
+2,TOM,2,0,2,100.0
+2,Vitamin A metabolism,2,0,2,100.0
+2,CII subunits,2,0,2,100.0
+2,Malate-aspartate shuttle,2,0,2,100.0
+2,mtRNA stability and decay,2,0,2,100.0
+2,Copper metabolism,2,0,2,100.0
+2,Lysine metabolism,2,1,1,50.0
+2,Import motor,2,0,2,100.0
+2,Ketone metabolism,2,1,1,50.0
+2,Cytochromes,2,0,2,100.0
+2,Heme synthesis and processing,2,1,1,50.0
+2,CV assembly factors,2,0,2,100.0
+2,mtDNA replication,2,0,2,100.0
+2,Polycistronic mtRNA processing,2,0,2,100.0
+2,Nucleotide import,2,0,2,100.0
+2,Vitamin B12 metabolism,2,0,2,100.0
+2,mtDNA repair,2,0,2,100.0
+2,MIA40,2,1,1,50.0
+2,EF hand proteins,2,0,2,100.0
+2,Cholesterol-associated,2,0,2,100.0
+2,fMet processing,2,0,2,100.0
+2,Glycine metabolism,1,0,1,100.0
+2,Vitamin B1 metabolism,1,0,1,100.0
+2,TIM22 carrier pathway,1,0,1,100.0
+2,Creatine metabolism,1,0,1,100.0
+2,Mitochondrial permeability transition pore,1,0,1,100.0
+2,CIII subunits,1,0,1,100.0
+2,CII assembly factors,1,0,1,100.0
+2,GABA metabolism,1,1,0,0.0
+2,Glycerol phosphate shuttle,1,0,1,100.0
+2,Glyoxylate metabolism,1,0,1,100.0
+2,Preprotein cleavage,1,0,1,100.0
+2,Type II fatty acid synthesis,1,0,1,100.0
+2,Urea cycle,1,0,1,100.0
+2,Vitamin B6 metabolism,1,1,0,0.0
+2,Tetrahydrobiopterin synthesis,1,0,1,100.0
+2,Branched-chain amino acid metabolism,1,0,1,100.0
+2,Branched-chain amino acid dehydrogenase complex,1,0,1,100.0
+2,Calcium cycle,1,0,1,100.0
+2,Transcription,1,0,1,100.0
+2,Iron homeostasis,1,1,0,0.0
+2,Biotin utilizing proteins,1,1,0,0.0
+2,Vitamin B2 metabolism,1,0,1,100.0
+2,mtDNA nucleoid,1,0,1,100.0
+2,Molybdenum cofactor synthesis and proteins,1,1,0,0.0

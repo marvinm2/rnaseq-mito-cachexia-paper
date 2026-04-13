@@ -1,0 +1,17 @@
+gene_symbol,pathway,level,n_genes
+Chdh,Electron carriers,level_1,16
+Cyb5b,Electron carriers,level_1,16
+Cyc1,Electron carriers,level_1,16
+Cycs,Electron carriers,level_1,16
+Cyct,Electron carriers,level_1,16
+Dhodh,Electron carriers,level_1,16
+Etfa,Electron carriers,level_1,16
+Etfb,Electron carriers,level_1,16
+Etfbkmt,Electron carriers,level_1,16
+Etfdh,Electron carriers,level_1,16
+Etfrf1,Electron carriers,level_1,16
+Gpd2,Electron carriers,level_1,16
+Prodh,Electron carriers,level_1,16
+Prodh2,Electron carriers,level_1,16
+Sqor,Electron carriers,level_1,16
+mt-Cytb,Electron carriers,level_1,16

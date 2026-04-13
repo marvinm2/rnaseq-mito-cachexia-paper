@@ -1,0 +1,9 @@
+gene_symbol,pathway,level,n_genes
+Sdha,Complex II,level_1,8
+Sdhaf1,Complex II,level_1,8
+Sdhaf2,Complex II,level_1,8
+Sdhaf3,Complex II,level_1,8
+Sdhaf4,Complex II,level_1,8
+Sdhb,Complex II,level_1,8
+Sdhc,Complex II,level_1,8
+Sdhd,Complex II,level_1,8

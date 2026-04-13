@@ -1,0 +1,8 @@
+level,pathway,total_degs,upregulated,downregulated,pct_downregulated
+0,Metabolism,118,23,95,80.50847457627118
+0,OXPHOS,99,0,99,100.0
+0,Mitochondrial central dogma,77,8,69,89.6103896103896
+0,"Protein import, sorting and homeostasis",20,5,15,75.0
+0,Small molecule transport,19,5,14,73.68421052631578
+0,Mitochondrial dynamics and surveillance,18,8,10,55.55555555555556
+0,Signaling,7,1,6,85.71428571428571

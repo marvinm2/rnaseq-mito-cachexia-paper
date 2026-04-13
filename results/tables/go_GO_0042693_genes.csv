@@ -1,0 +1,13 @@
+gene_symbol,go_id,go_name,relationship
+ACVR1,GO:0042693,muscle cell fate commitment,part_of
+AW551984,GO:0042693,muscle cell fate commitment,part_of
+FGF10,GO:0042693,muscle cell fate commitment,part_of
+MUS MUSCULUS (HOUSE MOUSE) MMU-MIR-19B-3P,GO:0042693,muscle cell fate commitment,part_of
+NKX2-5,GO:0042693,muscle cell fate commitment,part_of
+TBX1,GO:0042693,muscle cell fate commitment,part_of
+TBX18,GO:0042693,muscle cell fate commitment,part_of
+TBX2,GO:0042693,muscle cell fate commitment,part_of
+TBX3,GO:0042693,muscle cell fate commitment,part_of
+TBX5,GO:0042693,muscle cell fate commitment,part_of
+WNT3A,GO:0042693,muscle cell fate commitment,part_of
+WT1,GO:0042693,muscle cell fate commitment,part_of

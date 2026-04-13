@@ -1,0 +1,7 @@
+gene_symbol,go_id,go_name,relationship
+CHRNA1,GO:0048630,skeletal muscle tissue growth,part_of
+CHRND,GO:0048630,skeletal muscle tissue growth,part_of
+COL6A1,GO:0048630,skeletal muscle tissue growth,part_of
+CRHR2,GO:0048630,skeletal muscle tissue growth,part_of
+DLL1,GO:0048630,skeletal muscle tissue growth,part_of
+VPS54,GO:0048630,skeletal muscle tissue growth,part_of

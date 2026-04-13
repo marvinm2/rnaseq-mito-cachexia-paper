@@ -1,0 +1,7 @@
+gene_symbol,go_id,go_name,relationship
+CACNA1S,GO:0002074,extraocular skeletal muscle development,is_a
+FOXL2,GO:0002074,extraocular skeletal muscle development,is_a
+MYH15,GO:0002074,extraocular skeletal muscle development,is_a
+MYOM1,GO:0002074,extraocular skeletal muscle development,is_a
+MYOM2,GO:0002074,extraocular skeletal muscle development,is_a
+PITX2,GO:0002074,extraocular skeletal muscle development,is_a

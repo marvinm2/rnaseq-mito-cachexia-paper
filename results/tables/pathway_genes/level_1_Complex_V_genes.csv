@@ -1,0 +1,27 @@
+gene_symbol,pathway,level,n_genes
+Atp5a1,Complex V,level_1,26
+Atp5b,Complex V,level_1,26
+Atp5c1,Complex V,level_1,26
+Atp5d,Complex V,level_1,26
+Atp5e,Complex V,level_1,26
+Atp5g1,Complex V,level_1,26
+Atp5g2,Complex V,level_1,26
+Atp5g3,Complex V,level_1,26
+Atp5h,Complex V,level_1,26
+Atp5j,Complex V,level_1,26
+Atp5j2,Complex V,level_1,26
+Atp5k,Complex V,level_1,26
+Atp5l,Complex V,level_1,26
+Atp5md,Complex V,level_1,26
+Atp5mpl,Complex V,level_1,26
+Atp5o,Complex V,level_1,26
+Atp5pb,Complex V,level_1,26
+Atpaf1,Complex V,level_1,26
+Atpaf2,Complex V,level_1,26
+Atpif1,Complex V,level_1,26
+Atpsckmt,Complex V,level_1,26
+Dmac2l,Complex V,level_1,26
+Fmc1,Complex V,level_1,26
+Tmem70,Complex V,level_1,26
+mt-Atp6,Complex V,level_1,26
+mt-Atp8,Complex V,level_1,26

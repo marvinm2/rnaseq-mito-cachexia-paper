@@ -1,0 +1,12 @@
+gene_symbol,pathway,level,n_genes
+Atad3a,mtDNA nucleoid,level_2,11
+Mterf1a,mtDNA nucleoid,level_2,11
+Mterf1b,mtDNA nucleoid,level_2,11
+Mterf2,mtDNA nucleoid,level_2,11
+Poldip2,mtDNA nucleoid,level_2,11
+Polg,mtDNA nucleoid,level_2,11
+Polg2,mtDNA nucleoid,level_2,11
+Polrmt,mtDNA nucleoid,level_2,11
+Ssbp1,mtDNA nucleoid,level_2,11
+Tfam,mtDNA nucleoid,level_2,11
+Twnk,mtDNA nucleoid,level_2,11

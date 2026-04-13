@@ -1,0 +1,15 @@
+gene_symbol,pathway,level,n_genes
+Dna2,mtDNA replication,level_2,14
+Exog,mtDNA replication,level_2,14
+Lig3,mtDNA replication,level_2,14
+Mgme1,mtDNA replication,level_2,14
+Polg,mtDNA replication,level_2,14
+Polg2,mtDNA replication,level_2,14
+Polrmt,mtDNA replication,level_2,14
+Rnaseh1,mtDNA replication,level_2,14
+Ssbp1,mtDNA replication,level_2,14
+Tfam,mtDNA replication,level_2,14
+Tfb2m,mtDNA replication,level_2,14
+Top1mt,mtDNA replication,level_2,14
+Top3a,mtDNA replication,level_2,14
+Twnk,mtDNA replication,level_2,14

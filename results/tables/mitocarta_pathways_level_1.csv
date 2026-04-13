@@ -1,0 +1,35 @@
+level,pathway,total_degs,upregulated,downregulated,pct_downregulated
+1,Translation,40,1,39,97.5
+1,Metals and cofactors,30,3,27,90.0
+1,mtRNA metabolism,28,7,21,75.0
+1,OXPHOS subunits,25,0,25,100.0
+1,OXPHOS assembly factors,24,0,24,100.0
+1,Complex I,23,0,23,100.0
+1,Carbohydrate metabolism,22,2,20,90.9090909090909
+1,Lipid metabolism,18,8,10,55.55555555555556
+1,SLC25A family,14,5,9,64.28571428571429
+1,Complex IV,12,0,12,100.0
+1,Amino acid metabolism,12,3,9,75.0
+1,Vitamin metabolism,12,3,9,75.0
+1,Protein import and sorting,10,2,8,80.0
+1,Protein homeostasis,10,3,7,70.0
+1,Nucleotide metabolism,10,1,9,90.0
+1,mtDNA maintenance,9,0,9,100.0
+1,Detoxification,7,2,5,71.42857142857143
+1,Apoptosis,6,4,2,33.33333333333333
+1,Complex V,6,0,6,100.0
+1,Electron carriers,5,1,4,80.0
+1,Fission,4,1,3,75.0
+1,Complex III,4,0,4,100.0
+1,Calcium homeostasis,4,0,4,100.0
+1,Complex II,3,0,3,100.0
+1,Sulfur metabolism,2,0,2,100.0
+1,Mitophagy,2,1,1,50.0
+1,Autophagy,2,1,1,50.0
+1,Cytochrome C,2,0,2,100.0
+1,ABC transporters,2,0,2,100.0
+1,Trafficking,2,1,1,50.0
+1,Fusion,1,0,1,100.0
+1,Calcium uniporter,1,0,1,100.0
+1,Intramitochondrial membrane interactions,1,0,1,100.0
+1,cAMP-PKA signaling,1,1,0,0.0

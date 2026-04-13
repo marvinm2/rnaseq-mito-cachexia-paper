@@ -1,0 +1,17 @@
+gene_symbol,pathway,level,n_genes
+Abcb10,Heme synthesis and processing,level_2,16
+Abcb6,Heme synthesis and processing,level_2,16
+Abcb7,Heme synthesis and processing,level_2,16
+Alas1,Heme synthesis and processing,level_2,16
+Alas2,Heme synthesis and processing,level_2,16
+Cox10,Heme synthesis and processing,level_2,16
+Cox15,Heme synthesis and processing,level_2,16
+Cpox,Heme synthesis and processing,level_2,16
+Fabp1,Heme synthesis and processing,level_2,16
+Fdx1,Heme synthesis and processing,level_2,16
+Fdx2,Heme synthesis and processing,level_2,16
+Fdxr,Heme synthesis and processing,level_2,16
+Fech,Heme synthesis and processing,level_2,16
+Hccs,Heme synthesis and processing,level_2,16
+Ppox,Heme synthesis and processing,level_2,16
+Slc25a38,Heme synthesis and processing,level_2,16

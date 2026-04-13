@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fetched input data (external databases, raw DEG file) — not tracked.
+# Intermediate tables and figures under results/ ARE tracked.
+data/*
+!data/.gitkeep
