@@ -1,0 +1,24 @@
+{
+  "title": "RNA-seq figure pipeline for mitochondrial impairment in mouse cachexia",
+  "description": "Analysis scripts and figure generation pipeline for the manuscript examining mitochondrial dysfunction in mouse cachexia via bulk RNA-seq (344P tumor-bearing vs sham). Produces the five figures in the paper: combined myogenesis/proteolysis GO panels, mitochondrial-highlighted volcano plot, OXPHOS hierarchical breakdown, literature-curated myogenesis TF-target network, and 3-level MitoCarta hierarchy (appendix). Uses MitoCarta 3.0, QuickGO, and TFLink v1.0 as external data sources.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Martens, Marvin",
+      "affiliation": "Department of Translational Genomics (TGX), Institute of Nutrition and Translational Research in Metabolism (NUTRIM), Maastricht University, Maastricht, the Netherlands",
+      "orcid": "0000-0003-2230-0840"
+    }
+  ],
+  "keywords": [
+    "RNA-seq",
+    "cachexia",
+    "mitochondria",
+    "MitoCarta",
+    "OXPHOS",
+    "differential expression",
+    "mouse model",
+    "tumor-induced muscle wasting"
+  ],
+  "license": "MIT",
+  "access_right": "open"
+}

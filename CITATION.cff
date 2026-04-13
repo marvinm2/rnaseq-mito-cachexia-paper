@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "RNA-seq figure pipeline for mitochondrial impairment in mouse cachexia"
+version: 1.0.0
+date-released: 2026-04-13
+authors:
+  - family-names: Martens
+    given-names: Marvin
+    orcid: "https://orcid.org/0000-0003-2230-0840"
+    affiliation: "Department of Translational Genomics (TGX), Institute of Nutrition and Translational Research in Metabolism (NUTRIM), Maastricht University, Maastricht, the Netherlands"
+license: MIT
+repository-code: "https://github.com/marvinm2/rnaseq-mito-cachexia-paper"
+keywords:
+  - RNA-seq
+  - cachexia
+  - mitochondria
+  - MitoCarta
+  - OXPHOS
+  - differential expression
+  - mouse model
+  - tumor-induced muscle wasting
