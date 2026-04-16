@@ -591,7 +591,8 @@ def main():
 
     # Title centered over the network panel's actual position
     net_bbox = ax_net.get_position()
-    title_x = (net_bbox.x0 + net_bbox.x1) / 2
+    leg_bbox = ax_leg.get_position()
+    title_x = (net_bbox.x0 + leg_bbox.x1) / 2
     fig.text(title_x, net_bbox.y1 + 0.04,
              'TF-Target Regulatory Network of 56 Literature-Curated Myogenesis Genes',
              fontsize=FONTS['title'], fontweight='bold',
