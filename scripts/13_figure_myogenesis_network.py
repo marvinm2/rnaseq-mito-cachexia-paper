@@ -562,8 +562,8 @@ def main():
 
     # Create figure
     print("Drawing figure...")
-    fig = plt.figure(figsize=(LAYOUT['full_page'] + 2, 9.5))
-    gs = gridspec.GridSpec(1, 2, width_ratios=[3.2, 1], wspace=0.05)
+    fig = plt.figure(figsize=(LAYOUT['full_page'], 9.5))
+    gs = gridspec.GridSpec(1, 2, width_ratios=[2.8, 1], wspace=0.05)
 
     # Panel A: Network
     ax_net = fig.add_subplot(gs[0])
@@ -573,24 +573,29 @@ def main():
     draw_category_patches(ax_net, G, pos)
     draw_network(ax_net, G, pos)
 
-    # Title
-    ax_net.set_title(
-        'TF-Target Regulatory Network of 56 Literature-Curated Myogenesis Genes',
-        fontsize=FONTS['title'], fontweight='bold', pad=15
-    )
-
-    # Auto-scale axes
+    # Auto-scale axes with symmetric ranges
     all_x = [p[0] for p in pos.values()]
     all_y = [p[1] for p in pos.values()]
     margin = 1.2
-    ax_net.set_xlim(min(all_x) - margin, max(all_x) + margin)
-    ax_net.set_ylim(min(all_y) - margin, max(all_y) + margin)
+    x_center = (max(all_x) + min(all_x)) / 2
+    y_center = (max(all_y) + min(all_y)) / 2
+    half_range = max(max(all_x) - min(all_x), max(all_y) - min(all_y)) / 2 + margin
+    ax_net.set_xlim(x_center - half_range, x_center + half_range)
+    ax_net.set_ylim(y_center - half_range, y_center + half_range)
 
     # Panel B: Legend
     ax_leg = fig.add_subplot(gs[1])
     draw_legend(ax_leg)
 
     plt.tight_layout()
+
+    # Title centered over the network panel's actual position
+    net_bbox = ax_net.get_position()
+    title_x = (net_bbox.x0 + net_bbox.x1) / 2
+    fig.text(title_x, net_bbox.y1 + 0.04,
+             'TF-Target Regulatory Network of 56 Literature-Curated Myogenesis Genes',
+             fontsize=FONTS['title'], fontweight='bold',
+             ha='center', va='bottom')
 
     # Save
     print("\nSaving figure...")
