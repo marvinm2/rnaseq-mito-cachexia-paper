@@ -76,6 +76,9 @@ python scripts/11_figure_main_go_panels.py          # figure_go_myogenesis_prote
 python scripts/12_figure_oxphos.py                  # figure_oxphos_hierarchy
 python scripts/13_figure_myogenesis_network.py      # figure_myogenesis_network
 python scripts/14_figure_mitocarta_three_levels.py  # figure_appendix_mitocarta_hierarchy
+
+# Stage 4: supplementary tables
+python scripts/15_supplementary_muscle_tables.py    # Supplementary_Table_Muscle_Cell_Differentiation_DEGs (35 genes) + Supplementary_Table_Skeletal_Muscle_Development_DEGs (32 genes)
 ```
 
 Script 09 calls the QuickGO REST API; script 04's g:Profiler step also hits a public endpoint. Both need network access.
