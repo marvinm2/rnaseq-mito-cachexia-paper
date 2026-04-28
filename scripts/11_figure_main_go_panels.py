@@ -644,17 +644,23 @@ def create_panel_c_proteolysis(ax, prot_stats, go_summary):
     print("Creating Panel C: Hierarchical Proteolysis View")
     print("-"*70)
 
-    # Get parent from summary
-    parent_summary = go_summary[(go_summary['Category'] == 'Proteolysis') & (go_summary['Subcategory'] == 'ALL')].iloc[0]
+    # Parent: count UNIQUE genes annotated under GO:0006508 (a gene appearing in
+    # multiple direct-child subcategories is counted once). Mirrors how the
+    # myogenesis Panel B parents are computed (set-based dedup), so the two
+    # panels report comparable parent counts.
+    prot_degs_unique = pd.read_csv(TABLES_DIR / "go_proteolysis_degs.csv") \
+        .drop_duplicates(subset='GeneSymbol')
+    n_parent_degs = len(prot_degs_unique)
+    n_parent_up = int((prot_degs_unique['regulation'] == 'up').sum())
+    n_parent_down = int((prot_degs_unique['regulation'] == 'down').sum())
 
-    # Create parent dict
     parent = {
         'Label': 'Proteolysis (all)',
-        'DEGs': parent_summary['Total_DEGs'],
-        'Upregulated': parent_summary['Upregulated'],
-        'Downregulated': parent_summary['Downregulated'],
-        'Pct_Up': parent_summary['Pct_Up'],
-        'Pct_Down': parent_summary['Pct_Down'],
+        'DEGs': n_parent_degs,
+        'Upregulated': n_parent_up,
+        'Downregulated': n_parent_down,
+        'Pct_Up': (n_parent_up / n_parent_degs * 100) if n_parent_degs > 0 else 0,
+        'Pct_Down': (n_parent_down / n_parent_degs * 100) if n_parent_degs > 0 else 0,
         'Total_Genes': 1051,
         'Directional_Sig': '',
         'Enrichment_Sig': '',
@@ -756,13 +762,52 @@ def create_panel_c_proteolysis(ax, prot_stats, go_summary):
             'IsKey': False
         })
 
-    # Combine all rows (parent + children)
-    all_data = [parent] + children_data
+    # Literature-based: 82-gene cachexia atrogene set (Bodine 2001; Sandri 2004;
+    # Lecker 2004) defined in scripts/03_categorize_degs_by_theme.py. Mirrors the
+    # "Literature-based" bar in Panel B (myogenesis).
+    manual_degs_df = pd.read_csv(TABLES_DIR / "proteolysis_degs.csv")
+    n_manual_total = 82
+    n_manual_degs = len(manual_degs_df)
+    n_manual_up = int((manual_degs_df['regulation'] == 'up').sum())
+    n_manual_down = int((manual_degs_df['regulation'] == 'down').sum())
+
+    table_enrich_manual = [
+        [n_manual_degs, TOTAL_DEGS - n_manual_degs],
+        [n_manual_total - n_manual_degs,
+         TOTAL_GENES - n_manual_total - TOTAL_DEGS + n_manual_degs],
+    ]
+    _, p_enrich_manual = fisher_exact(table_enrich_manual, alternative='greater')
+
+    table_dir_manual = [
+        [n_manual_up, TOTAL_UP_GLOBAL - n_manual_up],
+        [n_manual_down, TOTAL_DOWN_GLOBAL - n_manual_down],
+    ]
+    _, p_dir_manual = fisher_exact(table_dir_manual, alternative='two-sided')
+
+    manual = {
+        'Label': 'Literature-based',
+        'DEGs': n_manual_degs,
+        'Upregulated': n_manual_up,
+        'Downregulated': n_manual_down,
+        'Pct_Up': (n_manual_up / n_manual_degs * 100) if n_manual_degs > 0 else 0,
+        'Pct_Down': (n_manual_down / n_manual_degs * 100) if n_manual_degs > 0 else 0,
+        'Total_Genes': n_manual_total,
+        'Directional_Sig': sig_marker(p_dir_manual),
+        'Enrichment_Sig': sig_marker(p_enrich_manual),
+        'Prefix': '',
+        'IsParent': False,
+        'IsManual': True,
+    }
+
+    # Combine all rows (parent + children + literature)
+    all_data = [parent] + children_data + [manual]
     n_rows = len(all_data)
 
     print(f"   Parent: {parent['DEGs']} DEGs")
     for child in children_data:
         print(f"   {child['Prefix']}{child['Label']}: {child['DEGs']} DEGs ({child['Pct_Up']:.1f}% up)")
+    print(f"   Literature-based: {manual['DEGs']}/{manual['Total_Genes']} "
+          f"({manual['Pct_Up']:.1f}% up, dir={manual['Directional_Sig']})")
 
     # Create y positions (reversed for top-to-bottom hierarchy)
     y_pos = np.arange(n_rows)[::-1]  # Reverse so parent is at top
@@ -842,9 +887,10 @@ def create_panel_c_proteolysis(ax, prot_stats, go_summary):
 
     ax.set_yticks(y_pos)
     ax.set_yticklabels(labels, fontsize=FONTS['tick_label']-1)
-    # Apply bold to parent term labels
+    # Apply bold to parent term labels and the literature-based row
     for i, (tick, row) in enumerate(zip(ax.get_yticklabels(), all_data)):
-        tick.set_fontweight('bold' if row['IsParent'] else 'normal')
+        is_bold = row['IsParent'] or row.get('IsManual', False)
+        tick.set_fontweight('bold' if is_bold else 'normal')
 
     # Formatting
     ax.set_xlabel('Number of Genes', fontsize=FONTS['axis_label'], fontweight='bold')
